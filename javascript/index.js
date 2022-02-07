@@ -2437,7 +2437,7 @@ function asLipSync() {
             currentCast.splice(currentCast.indexOf(top2[1].lipstick), 1);
         }
     }
-    else if (randomNumber(0, 1000) >= 100 && disqOrDept == false && currentCast.length > 5) {
+    else if (randomNumber(0, 1000) >= 800 && disqOrDept == false && currentCast.length > 5) {
         screen.createImage(top2[0].image, "royalblue");
         screen.createBold(top2[0].getName() + ", you're a winner, baby!");
         screen.createImage(top2[1].image, "cyan");
