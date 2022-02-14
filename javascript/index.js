@@ -999,7 +999,7 @@ function doublePremiereJudging() {
     topQueens[0].addToTrackRecord("WIN");
     topQueens[0].favoritism += 5;
     topQueens[0].ppe += 2;
-    topQueens[1].addToTrackRecord("TOP2");
+    topQueens[1].addToTrackRecord("WIN");
     topQueens[1].favoritism += 2;
     topQueens[1].ppe += 1.5;
     screen.createButton("Proceed", "doublePremiere()");
