@@ -2598,7 +2598,7 @@ function asLipSync() {
         top2[1].addToTrackRecord("WIN");
         top2[1].favoritism += 4;
         top2[1].ppe += 5;
-        screen.createImage(top2[1].image, "yellow");
+        screen.createImage(top2[1].image, "cyan");
         screen.createParagraph(top2[1].getName() + ", you are safe.");
         screen.createHorizontalLine();
         screen.createImage(top2[0].lipstick.image, "red");
