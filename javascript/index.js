@@ -1420,7 +1420,7 @@ function contestantProgress() {
                 placement.setAttribute("style", "background-color: gray");
             }
             else if (placement.innerHTML == "WIN ") {
-                placement.setAttribute("style", "font-weight: bold; background-color: cyan;");
+                placement.setAttribute("style", "font-weight: bold; background-color: yellow;");
             }
             else if (placement.innerHTML == "SAFE") {
                 placement.setAttribute("style", "background-color: white;");
@@ -1523,7 +1523,7 @@ function contestantProgress() {
                     placement.setAttribute("style", "background-color: gray");
                 }
                 else if (placement.innerHTML == "WIN ") {
-                    placement.setAttribute("style", "font-weight: bold; background-color: cyan;");
+                    placement.setAttribute("style", "font-weight: bold; background-color: yellow;");
                 }
                 else if (placement.innerHTML == "SAFE") {
                     placement.setAttribute("style", "background-color: white;");
@@ -1626,7 +1626,7 @@ function contestantProgress() {
                 placement.setAttribute("style", "background-color: gray");
             }
             else if (placement.innerHTML == "WIN ") {
-                placement.setAttribute("style", "font-weight: bold; background-color: cyan;");
+                placement.setAttribute("style", "font-weight: bold; background-color: yellow;");
             }
             else if (placement.innerHTML == "SAFE") {
                 placement.setAttribute("style", "background-color: white;");
